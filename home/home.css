@@ -1,0 +1,364 @@
+body{
+    background: #f1f1f1 !important;
+    min-width: 841px;
+    overflow: auto;
+
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+}
+:root{
+    --primary-color: #44c878;
+}
+.header_main {
+    height: 45px;
+    width: 100%;
+    background-image: url(https://www.lacartedescolocs.fr/assets/backgrounds/header_bg-8e48a21….png);
+}
+.navi_home{
+    float: right;
+}
+li.nav-item_home {
+    font-size: 20px;
+    margin-right: 50px;
+    /* color: #fff; */
+}
+.logo_home {
+    float: left;
+}
+.home{
+    border: 1px;
+    background: #ffffff00;
+    color: #fff;
+}
+i.fa-solid.fa-search {
+    color: #fff;
+}
+i.fa-solid.fa-bed{
+    color: #fff;
+}
+i.fa-solid.fa-sign-in{
+    color: #fff;
+}
+
+i.fa-solid.fa-lock.home{
+    position: absolute;
+    opacity: 0.7;
+    top: 200px !important;
+    left: 88px;
+    z-index: 1;
+}
+i.fa-solid.fa-user.lg.home {
+    position: absolute;
+    opacity: 0.7;
+    top: 155px !important;
+    left: 88px;
+    z-index: 1;
+}
+.list_home{
+    padding-top: 20px !important;
+}
+.container_list {
+    max-width: 750px;
+    margin: 40px auto 70px;
+}
+
+.form__group.code__product {
+    width: 100%;
+    margin: 15px auto;
+    display: table;
+    float: left;
+    background: #fff;
+    border-radius: 8px;
+    padding: 15px 0;
+}
+
+.form_icon {
+    float: left;
+    margin-left: 32px;
+    font-size: 46px;
+    color: var(--primary-color);
+}
+.map{
+    font-size: 18px !important;
+    display: block;
+    color: #23623c;
+}
+
+input#valCategory {
+    float: right;
+    /* width: 581px; */
+    width: 410px;
+    height: 38px;
+    line-height: 38px;
+    padding-left: 12px;
+    font-size: 1em;
+    /* float: left; */
+    border: 1px solid #3db06a;
+    /* background-color: var(--primary-fairest); */
+    border-radius: 5px;
+    outline: none;
+    margin-right: 109px;
+}
+select#inp__category {
+    width: 236px;
+    border-radius: 5px;
+    height: 40px;
+}
+.form_cho {
+    padding-bottom: 10px;
+}
+
+input#valdt {
+    width: 242px;
+    line-height: 38px;
+    padding-left: 12px;
+    font-size: 1em;
+    border: 1px solid #3db06a;
+    border-radius: 5px;
+    margin-right: -12px;
+}
+i.fa-solid.fa-bed.bed {
+    color: #44c878 !important;
+}
+
+button#bnt_add {
+    border: 1px solid #44c878;
+    background: #44c878;
+    color: #fff;
+    border-radius: 6px;
+    width: 140px;
+    height: 50px;
+}
+
+button#bnt_add:hover {
+    background: #2a7d4b;
+
+}
+.form_in_check {
+    width: 560px;
+    display: -webkit-inline-box;
+    float: left;
+}
+
+.checkbox_con {
+    display: inline-block;
+    padding: 10px 0;
+    vertical-align: top;
+}
+.sub_user {
+    background-color: #42c174 !important;
+    color: #fff !important;
+    width: 141px;
+    /* text-align: center; */
+    height: 30px;
+    /* display: flex; */
+    /* align-items: center; */
+    /* justify-content: center; */
+    margin: auto;
+    border-radius: 6px;
+}
+.sub_user:hover {
+    background-color: #2e834f !important;
+    color: #fff !important;
+    width: 141px;
+    /* text-align: center; */
+    height: 30px;
+    /* display: flex; */
+    /* align-items: center; */
+    /* justify-content: center; */
+    margin: auto;
+    border-radius: 6px;
+}
+.search-tool {
+    margin: 10px 8px 0 400px;
+}
+button.love_btn {
+    border-radius: 4px;
+    display: inline-block;
+    font-size: 0.9rem;
+    height: 36px;
+    line-height: 36px;
+    margin: 0;
+    /* outline: 0; */
+    padding: 0 0.45rem 0 0.5rem;
+    text-align: center;
+    vertical-align: top;
+    cursor: pointer;
+    box-sizing: border-box;
+    outline: none;
+    background: white;
+    color: #5c6872;
+    border: 1px solid #cdd1d4;
+}
+/* .grid__column-2-4 {
+    box-shadow: 0 0 5px red;
+} */
+
+div#home_lg2 {
+    width: 900px;
+    height: 460px;
+    background-color: white;
+    display: block;
+    position: fixed;
+    left: 35%;
+    top: 35%;
+    margin-left: -200px;
+    margin-top: -212px;
+    text-align: center;
+    border-radius: 6px;
+    z-index: 10002;
+}
+
+.home_lgin2 {
+    background-color: rgba(7, 10, 16, 0.8);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 10001;
+    /* display: none; */
+}
+h3 {
+    font-size: 14px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.tienghi_list {
+    border-radius: 4px;
+    display: inline-block;
+    font-size: 0.9rem;
+    height: 36px;
+    line-height: 36px;
+    margin: 0;
+    /* outline: 0; */
+    padding: 0 0.45rem 0 0.5rem;
+    /* text-align: center; */
+    vertical-align: top;
+    cursor: pointer;
+    box-sizing: border-box;
+    outline: none;
+    background: white;
+    color: #5c6872;
+    border: 1px solid #cdd1d4;
+    transition: border-color 0.3s;
+}
+.tienghi_list:focus {
+    border-color:  #42c174; /* Màu viền khi chọn */
+    outline: none; /* Bỏ viền mặc định */
+}
+
+option {
+    padding: 10px;
+}
+img.img-fluid.img-compa {
+    height: 305px;
+    width: 583px;
+}
+.post-info {
+    transition: transform 0.3s ease; /* Hiệu ứng chuyển động */
+}
+
+.post-info.hover {
+    transform: translateY(-5px); /* Nhút nhích lên 5px khi hover */
+}
+
+#map {
+    height: 100vh;
+}
+
+#slider {
+    background-color: #f9f9f9; /* Màu nền cho thanh trượt */
+    border-left: 1px solid #ccc; /* Đường viền bên trái */
+    padding: 10px;
+}
+
+
+.post-info h4 {
+    margin: 0; /* Xóa khoảng cách mặc định */
+}
+
+.dropdown2 {
+    position: relative;
+    display: inline-block;
+}
+.dropdown2-button {
+    border-radius: 4px;
+    display: inline-block;
+    font-size: 0.9rem;
+    height: 36px;
+    line-height: 36px;
+    margin: 0;
+    /* outline: 0; */
+    padding: 0 0.45rem 0 0.5rem;
+    text-align: center;
+    vertical-align: top;
+    cursor: pointer;
+    box-sizing: border-box;
+    outline: none;
+    background: white;
+    color: #5c6872;
+    border: 1px solid #cdd1d4;
+}
+.dropdown2-content {
+    display: none; /* Ẩn dropdown ban đầu */
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.dropdown2-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown2-content a:hover {
+    background-color: #f1f1f1;
+}
+.show {
+    display: block; /* Hiện dropdown khi được kích hoạt */
+    line-height: 10px;
+    border-radius: 6px;
+    width: 200px;
+
+}
+.pagination a{
+    text-decoration: none;
+    color: #ccc;
+    margin-right: 10px;
+
+}
+.number{
+    margin-right: 10px;
+}
+button.love_cl3 {
+    margin-left: 39px;
+      border: 1px;
+    font-size: 18px;
+    color: #3db06a;
+    margin-bottom: 10px;
+}
+.sub_user4:hover {
+    background-color: #2e834f !important;
+    color: #fff !important;
+    width: 141px;
+    height: 30px;
+    margin: auto;
+    border-radius: 6px;
+}
+.sub_user4 {
+    background-color: #42c174 !important;
+    color: #fff !important;
+    width: 141px;
+    height: 30px;
+    margin: auto;
+    border-radius: 6px;
+}
+div#dropdown2Menu {
+    z-index: 2;
+}

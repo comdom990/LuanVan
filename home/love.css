@@ -1,0 +1,20 @@
+button.exit_home {
+    position: absolute;
+    z-index: 1;
+    top: 16px;
+    background-color: #42c174 !important;
+    color: #fff !important;
+    /* width: 141px; */
+    /* text-align: center; */
+    height: 28px;
+    /* display: flex; */
+    /* align-items: center; */
+    /* justify-content: center; */
+    margin: auto;
+    border-radius: 6px;
+    border: 1px;
+    margin-left: 4px;
+}
+.grid__column-2-4 {
+    position: relative;
+}

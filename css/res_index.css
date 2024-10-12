@@ -1,0 +1,197 @@
+.header {
+    background-position: center; /* Căn giữa hình nền */
+    background-size: cover; /* Đảm bảo hình nền bao phủ toàn bộ khu vực */
+    background-repeat: no-repeat; /* Không lặp lại hình nền */
+    min-height: 400px; /* Chiều cao tối thiểu cho header */
+    display: flex; /* Sử dụng flexbox để dễ dàng căn chỉnh nội dung */
+    justify-content: center; /* Căn giữa theo chiều ngang */
+    align-items: center; /* Căn giữa theo chiều dọc */
+    text-align: center; /* Căn giữa nội dung văn bản */
+}
+.footer {
+    background-position: center; /* Căn giữa hình nền */
+  
+    width: 100%; /* Đảm bảo chiều rộng 100% */
+    padding: 20px 0; /* Đệm trên và dưới */
+    color: white; /* Màu chữ */
+}
+
+.footer-text {
+    margin: 0; /* Bỏ khoảng cách mặc định */
+}
+.home_about {
+    width: 769px;
+    text-align: center;
+    margin: auto;
+    padding-top: 30px;
+}
+
+@media (max-width: 765px) {
+    .home_publish {
+        width: 735px; /* Kích thước tùy chỉnh cho màn hình nhỏ hơn 769px */
+        margin: 0 auto; /* Căn giữa phần tử */
+    }
+    .footer {
+        width: 735px; /* Kích thước tùy chỉnh cho màn hình nhỏ hơn 769px */
+        margin: 0 auto; /* Căn giữa phần tử */
+    }
+    .header {
+        width: 735px; /* Kích thước tùy chỉnh cho màn hình nhỏ hơn 769px */
+        margin: 0 auto; /* Căn giữa phần tử */
+    }
+    .account  {
+        width: 735px; /* Kích thước tùy chỉnh cho màn hình nhỏ hơn 769px */
+        margin: 0 auto; /* Căn giữa phần tử */
+    }
+    .main  {
+        width: 735px; /* Kích thước tùy chỉnh cho màn hình nhỏ hơn 769px */
+        margin: 0 auto; /* Căn giữa phần tử */
+    }
+    .home_about  {
+        width: 735px; /* Kích thước tùy chỉnh cho màn hình nhỏ hơn 769px */
+        margin: 0 auto; /* Căn giữa phần tử */
+    } 
+    body {
+        width: 735px; /* Kích thước tùy chỉnh cho màn hình nhỏ hơn 769px */
+        margin: 0 auto; /* Căn giữa phần tử */
+    }
+    i.fa-solid.fa-user.lg {
+        position: absolute;
+        opacity: 0.7;
+        top: 150px;
+        left: 87px;
+        z-index: 1;
+    }
+    i.fa-solid.fa-lock.dn {
+        position: absolute;
+        opacity: 0.7;
+        top: 195px;
+        left: 87px;
+        z-index: 1;
+    }
+}
+@media (max-width: 804px) {
+    .home_publish {
+        width: 801px; /* Kích thước tùy chỉnh cho màn hình nhỏ hơn 769px */
+        margin: 0 auto; /* Căn giữa phần tử */
+    }
+    .footer {
+        width: 801px; /* Kích thước tùy chỉnh cho màn hình nhỏ hơn 769px */
+        margin: 0 auto; /* Căn giữa phần tử */
+    }
+    .header {
+        width: 801px; /* Kích thước tùy chỉnh cho màn hình nhỏ hơn 769px */
+        margin: 0 auto; /* Căn giữa phần tử */
+    }
+    .account  {
+        width: 801px; /* Kích thước tùy chỉnh cho màn hình nhỏ hơn 769px */
+        margin: 0 auto; /* Căn giữa phần tử */
+    }
+    .main  {
+        width: 801px; /* Kích thước tùy chỉnh cho màn hình nhỏ hơn 769px */
+        margin: 0 auto; /* Căn giữa phần tử */
+    }
+    .home_about  {
+        width: 801px; /* Kích thước tùy chỉnh cho màn hình nhỏ hơn 769px */
+        margin: 0 auto; /* Căn giữa phần tử */
+    } 
+    body {
+        width: 801px; /* Kích thước tùy chỉnh cho màn hình nhỏ hơn 769px */
+        margin: 0 auto; /* Căn giữa phần tử */
+    }
+    i.fa-solid.fa-user.lg {
+        position: absolute;
+        opacity: 0.7;
+        top: 150px;
+        left: 87px;
+        z-index: 1;
+    }
+    i.fa-solid.fa-lock.dn {
+        position: absolute;
+        opacity: 0.7;
+        top: 195px;
+        left: 87px;
+        z-index: 1;
+    }
+}
+@media (max-width: 768px) {
+    .home_publish {
+        width: 877px; /* Kích thước tùy chỉnh cho màn hình nhỏ hơn 769px */
+        margin: 0 auto; /* Căn giữa phần tử */
+    }
+    .footer {
+        width: 877px; /* Kích thước tùy chỉnh cho màn hình nhỏ hơn 769px */
+        margin: 0 auto; /* Căn giữa phần tử */
+    }
+    .header {
+        width: 877px; /* Kích thước tùy chỉnh cho màn hình nhỏ hơn 769px */
+        margin: 0 auto; /* Căn giữa phần tử */
+    }
+    .account  {
+        width: 877px; /* Kích thước tùy chỉnh cho màn hình nhỏ hơn 769px */
+        margin: 0 auto; /* Căn giữa phần tử */
+    }
+    .main  {
+        width: 877px; /* Kích thước tùy chỉnh cho màn hình nhỏ hơn 769px */
+        margin: 0 auto; /* Căn giữa phần tử */
+    }
+    .home_about  {
+        width: 877px; /* Kích thước tùy chỉnh cho màn hình nhỏ hơn 769px */
+        margin: 0 auto; /* Căn giữa phần tử */
+    } 
+    body {
+        width: 877px; /* Kích thước tùy chỉnh cho màn hình nhỏ hơn 769px */
+        margin: 0 auto; /* Căn giữa phần tử */
+    }
+    .container, .container-sm{
+        width: 877px !important; /* Kích thước tùy chỉnh cho màn hình nhỏ hơn 769px */
+        margin: 0 auto; /* Căn giữa phần tử */
+    }
+    i.fa-solid.fa-user.lg {
+        position: absolute;
+        opacity: 0.7;
+        top: 150px;
+        left: 87px;
+        z-index: 1;
+    }
+    i.fa-solid.fa-lock.dn {
+        position: absolute;
+        opacity: 0.7;
+        top: 195px;
+        left: 87px;
+        z-index: 1;
+    }
+}
+@media (max-width: 999px) {
+    
+    .account  {
+        width: 735px; /* Kích thước tùy chỉnh cho màn hình nhỏ hơn 769px */
+        margin: 0 auto; /* Căn giữa phần tử */
+    }
+    
+}
+
+@media (min-width: 576px)  {
+    .container, .container-sm {
+        max-width: 877px !important;
+    }
+}
+
+@media (min-width: 768px) {
+    .container,
+    .container-sm {
+        max-width: 960px !important; /* Ví dụ cho màn hình tablet */
+    }
+}
+@media (min-width: 992px) {
+    .container,
+    .container-sm {
+        max-width: 1140px  !important; /* Ví dụ cho màn hình desktop */
+    }
+}
+@media (min-width: 1200px) {
+    .container,
+    .container-sm {
+        max-width: 1518px !important; /* Ví dụ cho màn hình lớn hơn */
+    }
+}

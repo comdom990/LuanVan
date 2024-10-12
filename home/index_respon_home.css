@@ -1,0 +1,363 @@
+.navbar_haeder{
+    margin-left: 256px;
+    /* margin-bottom: -16px; */
+    padding-bottom: -10px;
+    padding-top: -32px;
+    margin-top: -8px;
+}
+/* Đảm bảo navbar có đủ không gian */
+.navbar {
+    padding: 0.5rem 1rem; /* Tùy chỉnh khoảng cách trong navbar */
+}
+
+
+/* Ẩn nút khi màn hình nhỏ hơn */
+@media (max-width: 992px) {
+    button.home {
+        color: #000;
+    }
+    /* Đảm bảo menu không bị cuộn xuống khi mở */
+.navbar-collapse {
+    position: absolute; /* Đặt vị trí của menu */
+    right: 0; /* Đẩy sang bên phải */
+    top: 100%; /* Đặt vị trí phía dưới navbar */
+    z-index: 1000; /* Đảm bảo menu nằm trên các phần tử khác */
+}
+.search-list {
+    padding-right: 529px;
+}
+.btn_tool{
+    margin-top: -8px;
+}
+.menu_header_ma{
+    margin-top: -5px;
+}
+}
+
+
+/* Ẩn nút khi màn hình lớn hơn */
+@media (min-width: 992px) {
+    .navbar_haeder {
+        display: flex; /* Hiển thị flex cho navbar */
+    }
+    
+
+    .navbar-expand-lg .navbar-nav .dropdown-menu {
+        position: absolute;
+        inset: 0px 0px auto auto;
+        margin: 0px;
+        transform: translate3d(-21.6px, 70.4px, 0px);
+    }
+}
+
+/* Tùy chỉnh cho các nút trong menu */
+.home {
+    margin-left: 5px; /* Khoảng cách giữa biểu tượng và văn bản */
+}
+.container-fluid {
+    margin-right: 10px !important;
+}
+.navbar_ser{
+    margin-top: 10px;
+}
+
+
+@media (max-width: 765px) {
+    .home_publish {
+        width: 735px; /* Kích thước tùy chỉnh cho màn hình nhỏ hơn 769px */
+        margin: 0 auto; /* Căn giữa phần tử */
+    }
+    .footer {
+        width: 735px; /* Kích thước tùy chỉnh cho màn hình nhỏ hơn 769px */
+        margin: 0 auto; /* Căn giữa phần tử */
+    }
+    .header {
+        width: 735px; /* Kích thước tùy chỉnh cho màn hình nhỏ hơn 769px */
+        margin: 0 auto; /* Căn giữa phần tử */
+    }
+    .account  {
+        width: 735px; /* Kích thước tùy chỉnh cho màn hình nhỏ hơn 769px */
+        margin: 0 auto; /* Căn giữa phần tử */
+    }
+    .main  {
+        width: 735px; /* Kích thước tùy chỉnh cho màn hình nhỏ hơn 769px */
+        margin: 0 auto; /* Căn giữa phần tử */
+    }
+    .home_about  {
+        width: 735px; /* Kích thước tùy chỉnh cho màn hình nhỏ hơn 769px */
+        margin: 0 auto; /* Căn giữa phần tử */
+    } 
+    body {
+        width: 735px; /* Kích thước tùy chỉnh cho màn hình nhỏ hơn 769px */
+        margin: 0 auto; /* Căn giữa phần tử */
+    }
+    i.fa-solid.fa-user.lg {
+        position: absolute;
+        opacity: 0.7;
+        top: 150px;
+        left: 87px;
+        z-index: 1;
+    }
+    i.fa-solid.fa-lock.dn {
+        position: absolute;
+        opacity: 0.7;
+        top: 195px;
+        left: 87px;
+        z-index: 1;
+    }
+    .grid__column-2-4 {
+        padding-left: 5px;
+        padding-right: 5px;
+        width: 19%;
+    }
+    button.love_cl3 {
+        margin-left: 2px;
+        border: 1px;
+        font-size: 18px;
+        color: #3db06a;
+        margin-bottom: 10px;
+    }
+}
+@media (max-width: 804px) {
+    .home_publish {
+        width: 801px; /* Kích thước tùy chỉnh cho màn hình nhỏ hơn 769px */
+        margin: 0 auto; /* Căn giữa phần tử */
+    }
+    .footer {
+        width: 801px; /* Kích thước tùy chỉnh cho màn hình nhỏ hơn 769px */
+        margin: 0 auto; /* Căn giữa phần tử */
+    }
+    .header {
+        width: 801px; /* Kích thước tùy chỉnh cho màn hình nhỏ hơn 769px */
+        margin: 0 auto; /* Căn giữa phần tử */
+    }
+    .account  {
+        width: 801px; /* Kích thước tùy chỉnh cho màn hình nhỏ hơn 769px */
+        margin: 0 auto; /* Căn giữa phần tử */
+    }
+    .main  {
+        width: 801px; /* Kích thước tùy chỉnh cho màn hình nhỏ hơn 769px */
+        margin: 0 auto; /* Căn giữa phần tử */
+    }
+    .home_about  {
+        width: 801px; /* Kích thước tùy chỉnh cho màn hình nhỏ hơn 769px */
+        margin: 0 auto; /* Căn giữa phần tử */
+    } 
+    body {
+        width: 801px; /* Kích thước tùy chỉnh cho màn hình nhỏ hơn 769px */
+        margin: 0 auto; /* Căn giữa phần tử */
+    }
+    i.fa-solid.fa-user.lg {
+        position: absolute;
+        opacity: 0.7;
+        top: 150px;
+        left: 87px;
+        z-index: 1;
+    }
+    i.fa-solid.fa-lock.dn {
+        position: absolute;
+        opacity: 0.7;
+        top: 195px;
+        left: 87px;
+        z-index: 1;
+    }
+    .grid__column-2-4 {
+        padding-left: 5px;
+        padding-right: 5px;
+        width: 19%;
+    }
+    button.love_cl3 {
+        margin-left: 2px;
+        border: 1px;
+        font-size: 18px;
+        color: #3db06a;
+        margin-bottom: 10px;
+    }
+}
+@media (max-width: 768px) {
+    .home_publish {
+        width: 877px; /* Kích thước tùy chỉnh cho màn hình nhỏ hơn 769px */
+        margin: 0 auto; /* Căn giữa phần tử */
+    }
+    .footer {
+        width: 877px; /* Kích thước tùy chỉnh cho màn hình nhỏ hơn 769px */
+        margin: 0 auto; /* Căn giữa phần tử */
+    }
+    .header {
+        width: 877px; /* Kích thước tùy chỉnh cho màn hình nhỏ hơn 769px */
+        margin: 0 auto; /* Căn giữa phần tử */
+    }
+    .account  {
+        width: 877px; /* Kích thước tùy chỉnh cho màn hình nhỏ hơn 769px */
+        margin: 0 auto; /* Căn giữa phần tử */
+    }
+    .main  {
+        width: 877px; /* Kích thước tùy chỉnh cho màn hình nhỏ hơn 769px */
+        margin: 0 auto; /* Căn giữa phần tử */
+    }
+    .home_about  {
+        width: 877px; /* Kích thước tùy chỉnh cho màn hình nhỏ hơn 769px */
+        margin: 0 auto; /* Căn giữa phần tử */
+    } 
+    body {
+        width: 877px; /* Kích thước tùy chỉnh cho màn hình nhỏ hơn 769px */
+        margin: 0 auto; /* Căn giữa phần tử */
+    }
+    .container, .container-sm{
+        width: 877px !important; /* Kích thước tùy chỉnh cho màn hình nhỏ hơn 769px */
+        margin: 0 auto; /* Căn giữa phần tử */
+    }
+    i.fa-solid.fa-user.lg {
+        position: absolute;
+        opacity: 0.7;
+        top: 150px;
+        left: 87px;
+        z-index: 1;
+    }
+    i.fa-solid.fa-lock.dn {
+        position: absolute;
+        opacity: 0.7;
+        top: 195px;
+        left: 87px;
+        z-index: 1;
+    }
+    .grid__column-2-4 {
+        padding-left: 5px;
+        padding-right: 5px;
+        width: 19%;
+    }
+    button.love_cl3 {
+        margin-left: 2px;
+        border: 1px;
+        font-size: 18px;
+        color: #3db06a;
+        margin-bottom: 10px;
+    }
+}
+@media (max-width: 999px) {
+    
+    .account  {
+        width: 735px; /* Kích thước tùy chỉnh cho màn hình nhỏ hơn 769px */
+        margin: 0 auto; /* Căn giữa phần tử */
+    }
+    button.love_cl3 {
+        margin-left: 3px;
+        border: 1px;
+        font-size: 18px;
+        color: #3db06a;
+        margin-bottom: 10px;
+    }
+    .grid__column-2-4 {
+        padding-left: 5px;
+        padding-right: 5px;
+        width: 19%;
+    }
+    .grid__row {
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: 16px;
+        margin-right: -5px;
+    }
+}
+
+@media (min-width: 576px)  {
+    .container, .container-sm {
+        max-width: 877px !important;
+    }
+}
+
+@media (min-width: 768px) {
+    .container,
+    .container-sm {
+        max-width: 960px !important; /* Ví dụ cho màn hình tablet */
+    }
+}
+@media (min-width: 992px) {
+    .container,
+    .container-sm {
+        max-width: 1140px  !important; /* Ví dụ cho màn hình desktop */
+    }
+    button.love_cl3 {
+        margin-left: 2px;
+        border: 1px;
+        font-size: 18px;
+        color: #3db06a;
+        margin-bottom: 10px;
+    }
+}
+@media (min-width: 1200px) {
+    .container,
+    .container-sm {
+        max-width: 1518px !important; /* Ví dụ cho màn hình lớn hơn */
+    }
+}
+
+
+
+/* Responsive Styles */
+@media screen and (max-width: 768px) {
+    .nav {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .search-menu {
+        flex-direction: column;
+    }
+
+    .search-tool {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .search {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+}
+
+
+/* styles.css */
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 250px;
+    background-color: white;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.5);
+    z-index: 1000;
+    overflow-y: auto;
+    padding: 20px;
+    display: none; /* Ẩn theo mặc định */
+}
+
+.sidebar-header {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.btn-close {
+    background: none;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.menu-icon {
+    font-size: 24px;
+    color: white;
+    cursor: pointer;
+}
+
+/* Hiệu ứng khi sidebar hiển thị */
+.sidebar.show {
+    display: block; /* Hiển thị sidebar khi có lớp .show */
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    .sidebar {
+        width: 100%;
+    }
+}

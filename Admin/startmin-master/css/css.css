@@ -1,0 +1,51 @@
+.input-group{
+    margin-top: 10px;
+}
+.group{
+    display: flex;
+    justify-content: center;
+    
+}
+.border{
+    padding: 20px;
+    border: 1px;
+}
+form.form-dn {
+    width: 500px;
+    margin-left: 555px;
+}
+.col-insert{
+    margin-top: 50px;
+   
+}
+input.form {
+    width: 500px !important;
+}
+.row-chart{
+    display: flex;
+    justify-content: center;
+}
+text{
+    font-size: 20px;
+    font-weight: 500;
+}
+label#basic-addon1 {
+    font-size: 18px;
+}
+.btn-submit
+    {
+        padding: 5px;
+        padding-left: 13px;
+        margin-left: 217px;
+        padding-right: 13px;
+        border-radius: 7px;
+        width: 79px;
+        background: aliceblue;
+        border-color: #1ea2bf;
+    }
+    input.form-control.form {
+        font-size: 18px
+    }
+    .col-4.offset-md-4.form-div {
+    margin-top: 35px;
+    }

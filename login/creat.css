@@ -1,0 +1,42 @@
+.form-value-dk{
+    background: #e9e9e9;
+    width: 500px;
+    margin: 0 auto;
+    padding-top: 15px;
+    border-radius: 5px;
+}
+
+.dktk{
+    /* float: right; */
+    /* width: 581px; */
+    width: 410px;
+    height: 38px;
+    line-height: 38px;
+    padding-left: 12px;
+    font-size: 1em;
+    /* float: left; */
+    border: 1px solid #3db06a;
+    /* background-color: var(--primary-fairest); */
+    border-radius: 5px;
+    outline: none;
+    /* margin-right: 109px; */
+}
+.ico{
+    font-size: 22px;
+    color: #44c878;
+}
+.inputbox-dk {
+    display: block;
+    width: 100%;
+    height: 55px;
+    text-align: center;
+}
+
+i.ico.fa-solid.fa-venus-mars {
+    float: left;
+    margin-left: 32px;
+}
+.check_gt {
+    float: left;
+    margin-left: 100px;
+}

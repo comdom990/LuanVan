@@ -1,0 +1,240 @@
+.listingsLoaded {
+    display: table;
+    background: white;
+    width: 720px;
+    margin: 0px auto;
+    padding: 20px 35px;
+    box-sizing: border-box;
+    font-size: 0.9em;
+}
+.avt-img{
+    width: 95px;
+    margin-left: 0;
+    cursor: default;
+    border-radius: 5px;
+}
+.avt {
+    float: left;
+}
+.info {
+    padding-left: 114px;
+}
+
+button.ho-so {
+    height: 32px;
+    margin-top: 8px;
+    font-size: 0.9em;
+    padding: 0;
+    color: #5c6872;
+    background-color: #ffffff;
+    border: 1px solid #cdd1d4;
+    user-select: none;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    border-radius: 4px;
+    width: 150px;
+}
+button.ho-so:hover{
+    background-color: #44c878;
+    color: #555555;
+}
+i{
+    /* font-size: 22px; */
+    /* color: #44c878; */
+}
+
+.profile {
+    float: left;
+    
+}
+.content {
+    float: right;
+    
+}
+button.con {
+    height: 32px;
+    margin-top: 8px;
+    font-size: 0.9em;
+    padding: 0;
+    color: #5c6872;
+    background-color: #fff;
+    border: 1px solid #cdd1d4;
+    user-select: none;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    border-radius: 4px;
+    width: 150px;
+}
+button.con:hover{
+    background-color: #44c878;
+    color: #555555;
+
+}
+i.fa-solid.fa-home.ic , i.fa-solid.fa-user.ic{
+    color: #5c6872 !important;
+}
+.from_list_home {
+    /* height: 200px; */
+    border: 1px;
+    background: #f1f1f1;
+    border-radius: 6px;
+    /* padding-bottom: 10px; */
+    /* padding-top: 31px; */
+    margin-bottom: -103px;
+}
+.avt {
+    margin-left: 12px;
+    padding-top: 14px;
+    width: 20%;
+
+}
+.from_group_item input {
+    height: 35px;
+    outline: none;
+    padding-left: 10px;
+    border-radius: 5px;
+    /* border: 1px solid rgb(194, 193, 193); */
+    width: 600px;
+}
+.from_group_item {
+    padding-top: 10px;
+}
+button#bnt_UpdateAdress {
+    width: 100px;
+    height: 40px;
+    border: none;
+    background-color: #44c878;
+    color: #fff;
+    border-radius: 10px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: 0.5s;
+    margin-bottom: 10px;
+}
+.bnt_submit:hover {
+    box-shadow: 0px 0px 3px 1px #26603d;
+}
+
+.from_r {
+    padding-bottom: 10px;
+}
+
+div#home_user_tt {
+    background-color: rgba(7, 10, 16, 0.8);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 10001;
+    display: none;
+
+}
+
+button.hide {
+    background-color: #42c174 !important;
+    color: #fff !important;
+    /* width: 141px; */
+    /* text-align: center; */
+    height: 28px;
+    /* display: flex; */
+    /* align-items: center; */
+    /* justify-content: center; */
+    margin: auto;
+    border-radius: 6px;
+    border: 1px;
+}
+.edit_hide  :hover {
+    background-color: #26603d !important;
+
+}
+.edit_hide {
+    margin: 4px;
+    float: right;
+}
+
+
+.container_home_list {
+    height: 350px  !important;
+    width: 100% !important;
+    /* height: 608px; */
+    margin: 130px auto 20px auto;
+}
+.container_user_list {
+    height: 350px  !important;
+    width: 62% !important;
+    /* height: 608px; */
+    margin: 130px auto 20px auto;
+}
+.list_modal_user {
+    height: 360px;
+    border: 1px;
+    background: #f1f1f1;
+    border-radius: 6px;
+    padding-bottom: 10px;
+    /* padding-top: 31px; */
+}
+.list_modal {
+    height: 300px;
+    border: 1px;
+    background: #f1f1f1;
+    border-radius: 6px;
+    padding-bottom: 10px;
+    /* padding-top: 31px; */
+}
+.list_left {
+    width: 30% !important;
+    height: auto;
+    float: left;
+    margin: 0;
+    display: block;
+    position: relative;
+    text-align: center;
+}
+.list_right {
+    width: 70% !important;
+    height: 258px;
+    border-top-right-radius: 6px;
+    float: right;
+    margin: 0;
+    display: block;
+    background-color: #fff;
+    overflow: hidden;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+a.submit.nav-link {
+    padding-top: 10px;
+}
+li.list_item {
+    float: left;
+    background-color: #44c878;
+    width: 100%;
+    text-transform: uppercase;
+    line-height: 32px;
+    box-shadow: inset 0px -2px #34985b;
+}
+.sub_user_h{
+    background-color: #42c174 !important;
+    color: #fff !important;
+    width: 141px;
+    height: 30px;
+    margin: auto;
+    border-radius: 6px;
+}
+.wt_de{
+    height: 350px !important;
+    width: 69% !important;
+    /* height: 608px; */
+    margin: 130px auto 20px auto;
+}
+.input_user{
+    height: 35px !important;
+    outline: none;
+    padding-left: 10px !important;
+    border-radius: 5px !important;
+    border: 1px solid rgb(194, 193, 193);
+    width: 500px !important;
+}

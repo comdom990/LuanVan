@@ -1,0 +1,149 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+  /* đôi back ground */
+ 
+
+/* .wrapper{
+    border: 1px solid #000;
+    height: auto;
+    width: 90%;
+    margin: 0 auto;
+} */
+/* .header{
+    border: 1px solid rgb(241, 44, 116);
+    height: 130px;
+    width: 100%;
+    background-image: url("../images/banner.jpg") ;
+    background-repeat: no-repeat;
+    background-size: 100% 130px;
+} */
+
+/*Header*/
+.account {
+    float: right;
+    margin-top: 6px !important;
+}
+.container-fluid.fw-bold {
+    height: 124px;
+}
+/*Menu*/
+.menu{
+    border: 1px solid rgb(203, 40, 40);
+    height: 50px;
+    width: 100%;
+}
+ul.list_menu{
+   padding: 0;
+   margin: 0;
+   width: 60%;
+   list-style: none;
+   
+}
+ul.list_menu li{
+    float: left;
+    border: 1px solid #000;
+    margin: 7px;
+    padding: 5px;
+}
+button.btn.btn-outline-success.fw-bold {
+    width: 100px !important;
+    height: 100% !important;
+}
+/*Main*/
+#main{
+    /* border: 1px solid rgb(190, 63, 63); */
+    height: auto;
+    width: 100%;
+}
+.sidebar{
+    border: 1px solid #000;
+    width: 20%;
+    height: 390px;
+    margin-top: 4px;
+    margin-left: 4px;
+    float: left;
+}
+/*side left*/
+ul.list_side{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    list-style: none;
+    line-height: 27px;
+    
+ }
+ ul.list_side li a{
+    text-decoration: none;
+    text-align: left;
+    display: block;
+    color: #000;
+ }
+ ul.list_side li:hover{
+    background-color: #f02849;
+    
+ }
+
+ ul.list_side li {
+     margin: 7px;
+     padding: 5px;
+ }
+
+/*main*/
+.maincontent{
+    border: 1px solid rgb(241, 9, 9);
+    width: 78%;
+    height: auto;
+    margin-top: 4px;
+    margin-left: 4px;
+    margin-right: 4px;
+    float: right ;
+}
+/*product*/
+
+ul.product_list{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    width: 100%;
+}
+ul.product_list li {
+    width: 18%;
+    border: 1px dashed #000;
+    margin: 9px;
+    float: left;
+    background: #ccc;
+    height: 276px;
+}
+ul.product_list li img{
+    width: 100%;
+}
+ul.product_list li a{
+    text-decoration: none;
+}
+p.title_product {
+    text-align: center;
+    color: #000;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+p.title_price {
+    text-align: center;
+    color: #f02849;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+
+.footer{
+    border: 1px solid rgb(207, 57, 57);
+    height: 150px;
+    width: 100%;
+    background-color: #000;
+}
+.clear{
+    clear: both;
+}
